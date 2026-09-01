@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alisson & Francieli | 19 de Dezembro de 2026</title>
+<meta name="description" content="Convite de casamento de Alisson e Francieli, 19 de dezembro de 2026.">
+
+<!-- ===================================================================
+     GUIA RÁPIDO DE EDIÇÃO — leia antes de publicar
+     - Nomes dos noivos: procure por "ALISSON" e "FRANCIELI" neste arquivo
+     - Data e horário: procure por "19 DE DEZEMBRO" e "17H"
+     - Endereço e mapa: procure "ENDEREÇO DO EVENTO" e "LINK DO GOOGLE MAPS"
+     - Chave PIX: procure "CHAVE PIX AQUI"
+     - Fotos: substitua os arquivos dentro da pasta /images (mesmos nomes)
+     - Formulário de presença: procure "FORMULÁRIO - CONFIGURAR AQUI"
+     Instruções completas estão no arquivo LEIA-ME.md
+=================================================================== -->
+
+<link rel="icon" type="image/jpeg" href="images/monograma.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== TELA DE CARREGAMENTO ===================== -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-inner">
+    <span class="loader-monogram">A <span class="amp">&amp;</span> F</span>
+    <span class="loader-line"></span>
+  </div>
+</div>
+
+<!-- ===================== PARTÍCULAS ROMÂNTICAS ===================== -->
+<div id="particles" aria-hidden="true"></div>
+
+<!-- ===================== BOTÃO DE MÚSICA ===================== -->
+<audio id="bg-music" loop preload="none">
+  <!-- Música de fundo: audio/musica.mp3 (troque o arquivo por outro, mantendo o mesmo nome, se quiser mudar) -->
+  <source src="audio/musica.mp3" type="audio/mpeg">
+</audio>
+<button id="music-toggle" aria-label="Ativar música de fundo" aria-pressed="false">
+  <svg class="icon-note" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M9 18V5l12-2v13"/><circle fill="currentColor" cx="6" cy="18" r="3"/><circle fill="currentColor" cx="18" cy="16" r="3"/></svg>
+</button>
+
+<!-- ===================== MENU DE NAVEGAÇÃO ===================== -->
+<header id="site-header">
+  <nav id="main-nav" aria-label="Navegação principal">
+    <a href="#inicio" class="nav-brand">A &amp; F</a>
+    <button id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="nav-links">
+      <li><a href="#inicio" class="nav-link">Início</a></li>
+      <li><a href="#historia" class="nav-link">Nossa História</a></li>
+      <li><a href="#grande-dia" class="nav-link">O Grande Dia</a></li>
+      <li><a href="#fotos" class="nav-link">Fotos</a></li>
+      <li><a href="#presentes" class="nav-link">Presentes</a></li>
+      <li><a href="#presenca" class="nav-link">Confirmar Presença</a></li>
+      <li><a href="#local" class="nav-link">Localização</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<!-- ===================== 1. HERO ===================== -->
+<section id="inicio" class="hero">
+  <!-- Substitua images/hero-casal.jpg pela foto principal do casal (vertical funciona melhor) -->
+  <div class="hero-bg" style="background-image:url('images/hero-casal.jpg')"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Vamos nos casar</p>
+    <h1 class="hero-names">
+      <span class="name">Alisson</span>
+      <span class="hero-amp">&amp;</span>
+      <span class="name">Francieli</span>
+    </h1>
+    <p class="hero-quote">"Duas histórias que se encontraram para escrever, juntas, um novo começo."</p>
+
+    <div class="save-the-date">
+      <span class="std-label">Save the Date</span>
+      <div class="std-info">
+        <span>19 de Dezembro de 2026</span>
+        <span class="std-dot">•</span>
+        <span>17h</span>
+      </div>
+    </div>
+
+    <a href="#presenca" class="btn btn-outline hero-cta">Confirmar presença</a>
+  </div>
+  <a href="#historia" class="scroll-cue" aria-label="Rolar para a próxima seção">
+    <span></span>
+  </a>
+</section>
+
+<!-- ===================== 2. NOSSA HISTÓRIA ===================== -->
+<section id="historia" class="section section-story reveal">
+  <div class="container story-text">
+    <p class="section-eyebrow">Desde o início</p>
+    <h2 class="section-title">Nossa História</h2>
+    <!-- Edite o texto abaixo com a história de vocês -->
+    <p>
+      Tudo começou de um jeito simples, quase sem perceber — um encontro casual que, aos poucos,
+      se transformou em conversas intermináveis, risadas compartilhadas e uma certeza silenciosa
+      de que tínhamos encontrado algo raro.
+    </p>
+    <p>
+      Com o tempo, aprendemos a construir juntos: os pequenos momentos do dia a dia, os planos
+      para o futuro e o apoio um no outro em cada etapa. Hoje, depois de tantas páginas escritas
+      lado a lado, decidimos começar um novo capítulo — e não poderíamos imaginar vivê-lo com
+      outra pessoa.
+    </p>
+    <p>
+      Agora, chegou a hora de dizer "sim" para sempre, e nada nos deixaria mais felizes do que
+      celebrar esse momento ao lado de quem caminhou conosco até aqui.
+    </p>
+  </div>
+</section>
+
+<!-- ===================== 3. CONTAGEM REGRESSIVA ===================== -->
+<section class="section section-countdown reveal">
+  <div class="container countdown-container">
+    <p class="section-eyebrow light">Faltam apenas</p>
+    <h2 class="section-title light">Contagem Regressiva</h2>
+    <!-- A data usada na contagem é definida em script.js — procure por WEDDING_DATE -->
+    <div id="countdown" class="countdown-grid">
+      <div class="countdown-box">
+        <span class="countdown-number" id="cd-days">00</span>
+        <span class="countdown-label">Dias</span>
+      </div>
+      <div class="countdown-box">
+        <span class="countdown-number" id="cd-hours">00</span>
+        <span class="countdown-label">Horas</span>
+      </div>
+      <div class="countdown-box">
+        <span class="countdown-number" id="cd-minutes">00</span>
+        <span class="countdown-label">Minutos</span>
+      </div>
+      <div class="countdown-box">
+        <span class="countdown-number" id="cd-seconds">00</span>
+        <span class="countdown-label">Segundos</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 4. O GRANDE DIA ===================== -->
+<section id="grande-dia" class="section section-details reveal">
+  <div class="container">
+    <p class="section-eyebrow">Detalhes</p>
+    <h2 class="section-title">O Grande Dia</h2>
+
+    <div class="details-grid">
+      <div class="detail-card">
+        <div class="detail-icon">📅</div>
+        <h3>Data</h3>
+        <!-- Altere a data do evento aqui -->
+        <p>19 de Dezembro de 2026</p>
+      </div>
+      <div class="detail-card">
+        <div class="detail-icon">🕒</div>
+        <h3>Horário</h3>
+        <!-- Altere o horário aqui -->
+        <p>Cerimônia às 17h</p>
+      </div>
+      <div class="detail-card">
+        <div class="detail-icon">💍</div>
+        <h3>Local</h3>
+        <!-- Altere o nome do local aqui -->
+        <p>Quêrencia Festas e Eventos</p>
+      </div>
+      <div class="detail-card">
+        <div class="detail-icon">📍</div>
+        <h3>Endereço</h3>
+        <!-- ENDEREÇO DO EVENTO: altere o endereço completo aqui -->
+        <p>Dirceu Elias de Moura, 1122<br>Arroio da Manteiga, São Leopoldo - RS, 93135-390</p>
+      </div>
+    </div>
+
+    <!-- LINK DO GOOGLE MAPS: substitua a URL abaixo pelo link do seu local -->
+    <a href="https://www.google.com/maps/search/?api=1&query=Quer%C3%AAncia+Festas+e+Eventos%2C+Dirceu+Elias+de+Moura%2C+1122+-+Arroio+da+Manteiga%2C+S%C3%A3o+Leopoldo+-+RS%2C+93135-390"
+       target="_blank" rel="noopener" class="btn btn-gold details-cta">
+      📍 Como Chegar
+    </a>
+  </div>
+</section>
+
+<!-- ===================== 5. GALERIA DE FOTOS ===================== -->
+<section id="fotos" class="section section-gallery reveal">
+  <div class="container">
+    <p class="section-eyebrow">Registros</p>
+    <h2 class="section-title">Nossos Momentos</h2>
+
+    <!-- Para adicionar/remover fotos, copie ou apague um bloco <button class="gallery-item">.
+         Substitua os arquivos dentro de /images mantendo os mesmos nomes, ou aponte para novos arquivos. -->
+    <div class="gallery-grid">
+      <button class="gallery-item" data-full="images/galeria-1.jpg">
+        <img src="images/galeria-1.jpg" alt="Alisson e Francieli se beijando em um festival" loading="lazy">
+      </button>
+      <button class="gallery-item" data-full="images/galeria-2.jpg">
+        <img src="images/galeria-2.jpg" alt="Alisson e Francieli em um evento ao ar livre" loading="lazy">
+      </button>
+      <button class="gallery-item" data-full="images/galeria-3.jpg">
+        <img src="images/galeria-3.jpg" alt="Alisson e Francieli em um gramado com a mata ao fundo" loading="lazy">
+      </button>
+      <button class="gallery-item" data-full="images/galeria-4.jpg">
+        <img src="images/galeria-4.jpg" alt="Alisson e Francieli de braços abertos em frente a um galpão" loading="lazy">
+      </button>
+      <button class="gallery-item" data-full="images/galeria-5.jpg">
+        <img src="images/galeria-5.jpg" alt="Alisson e Francieli brindando em um show à noite" loading="lazy">
+      </button>
+      <button class="gallery-item" data-full="images/galeria-6.jpg">
+        <img src="images/galeria-6.jpg" alt="Alisson e Francieli brincando na rua" loading="lazy">
+      </button>
+      <button class="gallery-item" data-full="images/galeria-7.jpg">
+        <img src="images/galeria-7.jpg" alt="Alisson e Francieli treinando juntos na academia" loading="lazy">
+      </button>
+      <button class="gallery-item" data-full="images/galeria-8.jpg">
+        <img src="images/galeria-8.jpg" alt="Mão de Francieli com o anel de noivado" loading="lazy">
+      </button>
+      <button class="gallery-item" data-full="images/galeria-9.jpg">
+        <img src="images/galeria-9.jpg" alt="Alisson e Francieli comendo um lanche dentro do carro" loading="lazy">
+      </button>
+      <button class="gallery-item" data-full="images/galeria-10.jpg">
+        <img src="images/galeria-10.jpg" alt="Alisson e Francieli em um estádio de futebol" loading="lazy">
+      </button>
+      <button class="gallery-item" data-full="images/galeria-11.jpg">
+        <img src="images/galeria-11.jpg" alt="Alisson e Francieli em um festival" loading="lazy">
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 6. MENSAGEM ESPECIAL ===================== -->
+<section class="section section-message reveal">
+  <div class="container message-container">
+    <span class="message-mark">❝</span>
+    <p class="section-eyebrow">Para vocês</p>
+    <h2 class="section-title">Um dia especial, pessoas especiais</h2>
+    <!-- Edite a mensagem aos convidados abaixo -->
+    <p class="message-text">
+      Estamos muito felizes por compartilhar esse momento tão importante das nossas vidas com
+      pessoas que fazem parte da nossa história. Sua presença tornará esse dia ainda mais especial.
+    </p>
+    <span class="message-signature">Alisson &amp; Francieli</span>
+  </div>
+</section>
+
+<!-- ===================== 7. ÁREA DE PRESENTES ===================== -->
+<section id="presentes" class="section section-gifts reveal">
+  <div class="container gifts-container">
+    <p class="section-eyebrow">Com carinho</p>
+    <h2 class="section-title">Presenteie os Noivos</h2>
+    <p class="gifts-intro">
+      Sua presença é o nosso maior presente. Mas, caso queira nos presentear,
+      disponibilizaremos uma caixa cofre com opção para notas ou pix.
+    </p>
+  </div>
+</section>
+
+<!-- ===================== 8. CONFIRMAÇÃO DE PRESENÇA ===================== -->
+<section id="presenca" class="section section-rsvp reveal">
+  <div class="container rsvp-container">
+    <p class="section-eyebrow light">Sua resposta é importante</p>
+    <h2 class="section-title light">Confirme sua Presença</h2>
+    <p class="rsvp-intro">Pedimos gentilmente a confirmação até 30 dias antes da cerimônia.</p>
+
+    <!-- =========================================================
+         FORMULÁRIO - CONFIGURAR AQUI
+         Este formulário está pronto para ser conectado a um serviço
+         sem necessidade de backend próprio. Duas opções simples:
+
+         OPÇÃO 1 — Formspree (recomendado, gratuito para uso básico):
+           1. Crie uma conta em https://formspree.io
+           2. Crie um novo formulário e copie a URL de "endpoint"
+              (algo como https://formspree.io/f/xxxxxxx)
+           3. Substitua o valor do atributo "action" abaixo por essa URL
+           4. Troque o "method" para "POST" (já está configurado)
+
+         OPÇÃO 2 — Google Forms:
+           1. Crie um Google Forms com os mesmos campos deste formulário
+           2. Pegue o link de envio (pré-preenchido) e ação do formulário
+           3. Substitua a lógica de envio no script.js (função handleRSVP)
+              para redirecionar ou enviar via fetch ao endpoint do Google Forms
+
+         Enquanto isso não for configurado, o formulário funciona em modo
+         de demonstração: mostra a mensagem de agradecimento, mas não
+         envia os dados a lugar nenhum. Veja o script.js, função handleRSVP.
+    ========================================================== -->
+    <form id="rsvp-form" class="rsvp-form" action="https://formspree.io/f/SEU_CODIGO_AQUI" method="POST" novalidate>
+      <div class="form-row">
+        <label for="rsvp-name">Nome completo</label>
+        <input type="text" id="rsvp-name" name="nome" required placeholder="Seu nome completo">
+      </div>
+
+      <div class="form-row">
+        <label for="rsvp-phone">Telefone / WhatsApp</label>
+        <input type="tel" id="rsvp-phone" name="telefone" required placeholder="(00) 00000-0000">
+      </div>
+
+      <div class="form-row">
+        <label for="rsvp-guests">Número de acompanhantes</label>
+        <input type="number" id="rsvp-guests" name="acompanhantes" min="0" max="10" value="0">
+      </div>
+
+      <div class="form-row">
+        <label for="rsvp-guest-names">Nome dos acompanhantes</label>
+        <textarea id="rsvp-guest-names" name="nomes_acompanhantes" rows="2" placeholder="Se houver acompanhantes, informe os nomes"></textarea>
+      </div>
+
+      <fieldset class="form-row rsvp-radio-group">
+        <legend>Confirmação</legend>
+        <label class="rsvp-radio">
+          <input type="radio" name="confirmacao" value="sim" required>
+          <span>Sim, estarei presente ❤️</span>
+        </label>
+        <label class="rsvp-radio">
+          <input type="radio" name="confirmacao" value="nao" required>
+          <span>Infelizmente não poderei comparecer 😢</span>
+        </label>
+      </fieldset>
+
+      <button type="submit" class="btn btn-gold rsvp-submit">Confirmar Presença</button>
+    </form>
+
+    <div id="rsvp-success" class="rsvp-success" hidden>
+      <span class="rsvp-success-icon">❤️</span>
+      <p>Obrigado por confirmar sua presença! Estamos ansiosos para celebrar esse dia com você.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 9. LOCALIZAÇÃO ===================== -->
+<section id="local" class="section section-location reveal">
+  <div class="container">
+    <p class="section-eyebrow">Como chegar</p>
+    <h2 class="section-title">Onde Será?</h2>
+
+    <div class="location-grid">
+      <div class="location-map">
+        <!-- Para trocar o mapa, gere um novo "embed" no Google Maps
+             (Compartilhar > Incorporar um mapa) e substitua o src abaixo -->
+        <iframe
+          title="Mapa do local do casamento"
+          src="https://www.google.com/maps?q=Quer%C3%AAncia+Festas+e+Eventos%2C+Dirceu+Elias+de+Moura%2C+1122+-+Arroio+da+Manteiga%2C+S%C3%A3o+Leopoldo+-+RS%2C+93135-390&output=embed"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="location-info">
+        <h3>Quêrencia Festas e Eventos</h3>
+        <p>Dirceu Elias de Moura, 1122<br>Arroio da Manteiga, São Leopoldo - RS, 93135-390</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=Quer%C3%AAncia+Festas+e+Eventos%2C+Dirceu+Elias+de+Moura%2C+1122+-+Arroio+da+Manteiga%2C+S%C3%A3o+Leopoldo+-+RS%2C+93135-390"
+           target="_blank" rel="noopener" class="btn btn-outline-dark">
+          Abrir no Google Maps
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== 10. RODAPÉ ===================== -->
+<footer class="site-footer">
+  <span class="footer-names">Alisson &amp; Francieli</span>
+  <p class="footer-quote">"Mal podemos esperar para celebrar esse momento com você!" ❤️</p>
+  <p class="footer-date">19 de Dezembro de 2026</p>
+</footer>
+
+<!-- ===================== LIGHTBOX DA GALERIA ===================== -->
+<div id="lightbox" class="lightbox" hidden>
+  <button id="lightbox-close" class="lightbox-close" aria-label="Fechar imagem">&times;</button>
+  <img id="lightbox-img" src="" alt="Foto ampliada">
+</div>
+
+<!-- ===================== BOTÃO VOLTAR AO TOPO ===================== -->
+<button id="back-to-top" aria-label="Voltar ao topo">
+  <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 4l-8 8h5v8h6v-8h5z"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
